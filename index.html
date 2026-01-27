@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Haresh A – Data Analyst Portfolio</title>
+	<style>
+		/* Basic reset */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+			line-height: 1.6;
+			background-color: #0f172a; /* dark navy */
+			color: #e5e7eb;
+		}
+
+		a {
+			color: #38bdf8;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		.wrapper {
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 24px 16px 48px;
+		}
+
+		header {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+			margin-bottom: 32px;
+			border-bottom: 1px solid #1f2937;
+			padding-bottom: 20px;
+		}
+
+		header h1 {
+			font-size: 2.2rem;
+		}
+
+		header h2 {
+			font-size: 1.1rem;
+			font-weight: 500;
+			color: #9ca3af;
+		}
+
+		.meta {
+			font-size: 0.95rem;
+			color: #9ca3af;
+		}
+
+		.meta span {
+			display: inline-block;
+			margin-right: 16px;
+		}
+
+		.section {
+			margin-top: 32px;
+		}
+
+		.section-title {
+			font-size: 1.3rem;
+			margin-bottom: 12px;
+			color: #f9fafb;
+		}
+
+		.badge-list {
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+			margin-top: 8px;
+		}
+
+		.badge {
+			font-size: 0.85rem;
+			padding: 4px 10px;
+			border-radius: 999px;
+			background-color: #111827;
+			border: 1px solid #1f2937;
+		}
+
+		.project {
+			background-color: #020617;
+			border-radius: 10px;
+			padding: 16px 16px 14px;
+			border: 1px solid #1f2937;
+			margin-bottom: 16px;
+		}
+
+		.project-title {
+			font-size: 1.05rem;
+			margin-bottom: 4px;
+		}
+
+		.project-meta {
+			font-size: 0.85rem;
+			color: #9ca3af;
+			margin-bottom: 8px;
+		}
+
+		.project strong {
+			color: #e5e7eb;
+		}
+
+		.project ul {
+			margin-left: 18px;
+			margin-bottom: 6px;
+		}
+
+		.project li {
+			margin-bottom: 2px;
+		}
+
+		.project-link {
+			font-size: 0.9rem;
+			margin-top: 4px;
+		}
+
+		.education-item {
+			background-color: #020617;
+			border-radius: 10px;
+			padding: 14px 16px;
+			border: 1px solid #1f2937;
+		}
+
+		.education-item strong {
+			font-size: 1rem;
+		}
+
+		.footer {
+			margin-top: 32px;
+			border-top: 1px solid #1f2937;
+			padding-top: 16px;
+			font-size: 0.9rem;
+			color: #9ca3af;
+		}
+
+		.btn {
+			display: inline-block;
+			margin-top: 8px;
+			padding: 8px 14px;
+			border-radius: 999px;
+			background-color: #38bdf8;
+			color: #020617;
+			font-weight: 500;
+			font-size: 0.9rem;
+		}
+
+		.btn:hover {
+			background-color: #0ea5e9;
+			text-decoration: none;
+		}
+
+		.contact-line {
+			margin: 4px 0;
+		}
+
+		@media (min-width: 640px) {
+			header {
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: flex-end;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div>
+				<h1>👋 Hi, I'm Haresh A</h1>
+				<h2>Data Analyst &middot; Recent Graduate</h2>
+			</div>
+			<div class="meta">
+				<div class="contact-line">📍 India</div>
+				<div class="contact-line">
+					📧 <a href="mailto:hareshh971@gmail.com">hareshh971@gmail.com</a>
+				</div>
+				<div class="contact-line">
+					🔗 <a href="https://www.linkedin.com/in/haresh-a-839636294" target="_blank" rel="noopener">
+						LinkedIn
+					</a>
+					&nbsp;|&nbsp;
+					🔗 <a href="https://github.com/Haresh2503" target="_blank" rel="noopener">
+						GitHub
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<section class="section">
+			<h3 class="section-title">🎯 Career Objective</h3>
+			<p>
+				Detail-oriented Data Analyst fresher seeking an entry-level role to apply analytical,
+				visualization, and problem-solving skills to support data-driven decision-making.
+			</p>
+		</section>
+
+		<section class="section">
+			<h3 class="section-title">🧰 Skills</h3>
+
+			<p><strong>Programming &amp; Querying</strong></p>
+			<ul class="badge-list">
+				<li class="badge">SQL</li>
+				<li class="badge">Python (Pandas, NumPy)</li>
+				<li class="badge">MySQL</li>
+			</ul>
+
+			<p style="margin-top: 12px;"><strong>Data Visualization</strong></p>
+			<ul class="badge-list">
+				<li class="badge">Power BI</li>
+				<li class="badge">Excel Charts</li>
+			</ul>
+
+			<p style="margin-top: 12px;"><strong>Tools</strong></p>
+			<ul class="badge-list">
+				<li class="badge">Excel</li>
+				<li class="badge">GitHub</li>
+			</ul>
+
+			<p style="margin-top: 12px;"><strong>Soft Skills</strong></p>
+			<ul class="badge-list">
+				<li class="badge">Problem Solving</li>
+				<li class="badge">Communication</li>
+				<li class="badge">Business Thinking</li>
+			</ul>
+		</section>
+
+		<section class="section">
+			<h3 class="section-title">📊 Projects</h3>
+
+			<div class="project">
+				<div class="project-title">🔹 Sales Performance Dashboard (Excel)</div>
+				<div class="project-meta">Tools: MS Excel</div>
+				<p><strong>Problem:</strong> Track sales performance across regions and products.</p>
+				<p><strong>What I Did:</strong></p>
+				<ul>
+					<li>Created pivot tables and charts.</li>
+					<li>Built an interactive dashboard with KPIs.</li>
+				</ul>
+				<p><strong>Key Insights:</strong></p>
+				<ul>
+					<li>Region A contributed the highest revenue.</li>
+					<li>Seasonal sales trends identified.</li>
+				</ul>
+				<p class="project-link">
+					🔗 GitHub:
+					<a href="https://github.com/yourusername/sales-dashboard-excel" target="_blank" rel="noopener">
+						View project
+					</a>
+				</p>
+			</div>
+
+			<div class="project">
+				<div class="project-title">🔹 Fitness Tracker – Data Analysis (Python)</div>
+				<div class="project-meta">Tools: Python, Pandas, Matplotlib</div>
+				<p><strong>Problem:</strong> Analyze user behavior.</p>
+				<p><strong>What I Did:</strong></p>
+				<ul>
+					<li>Performed EDA using Pandas.</li>
+					<li>Visualized trends and patterns.</li>
+				</ul>
+				<p><strong>Key Insights:</strong></p>
+				<ul>
+					<li>Repeat customers generated higher AOV.</li>
+					<li>Discounts influenced purchase frequency.</li>
+				</ul>
+				<p class="project-link">
+					🔗 GitHub:
+					<a href="https://github.com/yourusername/ecommerce-analysis-python" target="_blank" rel="noopener">
+						View project
+					</a>
+				</p>
+			</div>
+		</section>
+
+		<section class="section">
+			<h3 class="section-title">🎓 Education</h3>
+			<div class="education-item">
+				<strong>Bachelor’s Degree – Computer Science</strong><br />
+				<span>Shree Venkateshwara Arts &amp; Science College, Gobichettipalayam</span><br />
+				<span>Graduation: 2025</span>
+			</div>
+		</section>
+
+		<section class="section">
+			<h3 class="section-title">📄 Resume</h3>
+			<a
+				class="btn"
+				href="https://docs.google.com/document/d/1bBcCqaQBBmy8IWo_3-E2QIvOyUIDGDfA/edit?usp=drive_link&ouid=111314996683551015292&rtpof=true&sd=true"
+				target="_blank"
+				rel="noopener"
+			>
+				📥 Download Resume
+			</a>
+		</section>
+
+		<section class="section">
+			<h3 class="section-title">📬 Contact</h3>
+			<p>Feel free to reach out for opportunities or collaboration.</p>
+			<p class="contact-line">
+				📧 <a href="mailto:hareshh971@gmail.com">hareshh971@gmail.com</a>
+			</p>
+			<p class="contact-line">
+				🔗 <a href="https://www.linkedin.com/in/haresh-a-839636294" target="_blank" rel="noopener">
+					LinkedIn: /in/haresh-a-839636294
+				</a>
+			</p>
+		</section>
+
+		<div class="footer">
+			Last updated: 2026 · Built with plain HTML &amp; CSS
+		</div>
+	</div>
+</body>
+</html>
